@@ -1,15 +1,15 @@
-# Postal-For-V2Board
+# Postal-For-Xboard
 
 ## 介绍
 
-为V2Board提供通过Postal API发送邮件的功能 \
+为Xboard提供通过Postal API发送邮件的功能 \
 与SMTP协议相比，Postal API提供了更高的发送速度和更低的延迟
 
 ## 安装
 
-1. 下载文件[SendEmailJob.php](https://github.com/SideCloudGroup/Postal-For-V2Board/raw/main/app/Jobs/SendEmailJob.php)
-   ，替换V2Board目录下的`/app/Jobs/SendEmailJob.php` \
-2. 在V2Board网站根目录下执行以下命令
+1. 下载文件MailService.php
+   ，替换Xboard目录下的`/app/Services/MailService.php` \
+2. 在Xboard网站根目录下执行以下命令
     ```bash
     composer require postal/postal
     ```
@@ -26,3 +26,6 @@
 ## 问题
 
 如果您在使用过程中遇到任何问题，欢迎提出Issue
+
+
+原项目：https://github.com/SideCloudGroup/Postal-For-V2Board
