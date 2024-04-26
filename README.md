@@ -8,7 +8,7 @@
 ## 安装
 
 1. 下载文件MailService.php
-   ，替换Xboard目录下的`/app/Services/MailService.php` \
+   ，替换Xboard目录下的`/app/Services/MailService.php` 
 2. 在Xboard网站根目录下执行以下命令
     ```bash
     composer require postal/postal
